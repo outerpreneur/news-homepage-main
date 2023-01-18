@@ -267,6 +267,9 @@ button:hover {
     .lower-block {
         margin-bottom: 1em;
     }
+    .overflow {
+        display: block;
+    }
 }
 
 /* mobile menu */
@@ -316,4 +319,5 @@ button:hover {
     width: 30%;
     transform: translateX(-150px);
     transition: tranform 0.5s ease;
+    display: none;
 }
