@@ -268,7 +268,7 @@ button:hover {
         margin-bottom: 1em;
     }
     .overflow {
-        display: block;
+        display: block !important;
     }
 }
 
@@ -318,6 +318,6 @@ button:hover {
     bottom: 0;
     width: 30%;
     transform: translateX(-150px);
-    transition: tranform 0.5s ease;
+    transition: transform 0.5s ease;
     display: none;
 }
